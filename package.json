@@ -1,0 +1,16 @@
+{
+  "name": "betty-blocks-component",
+  "version": "0.1.0",
+  "description": "A WebAssembly Component that implements the actions interface",
+  "main": "src/actions.js",
+  "scripts": {
+    "build": "jco componentize -w wit -d all -o dist/custom.wasm src/actions.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bytecodealliance/componentize-js": "^0.15.0",
+    "@bytecodealliance/jco": "^1.10.1"
+  }
+}
